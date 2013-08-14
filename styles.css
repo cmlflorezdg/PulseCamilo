@@ -1,0 +1,189 @@
+a
+{
+	color: #DD4F24; /* color del enlaces  */
+}
+body /* Este es el nuevo estilo input */
+{
+	background: #EFEFFE; /* Poner color de fondo general */
+	color: #4c4c4c;
+	font-family: 'Cabin Condensed', sans-serif; /* Escoger color de fuente */
+	font-family: 16px; /* Tamaño de fuente estandar */
+	margin: 0; /* Quitar margenes eb todos los lados */
+}
+header
+{
+	/* border: 1px red solid;/* Esta línea de de border me pueade ayudar a identificar donde esta una sección al iniciar */
+	color: white;
+	background-color: #434343;
+	margin: 0px; /* Margen "Exterior" */
+	padding: 0.5em;  /* Margen "Interior" - "em"=16px Valor de variable mas cercano a la fuente inicial */
+}
+header figure, header h1 /* Herencia de CSS con la " , " lo aplica a los objetos dentro */
+{
+	display: inline-block;
+	vertical-align: top;
+} 
+header h1
+{
+	font-size: 20px;
+	font-weight: normal; /* quitar negrita */
+	margin: 1em 0 0 1rem; /* 1rem toma el valor en px primero  y em toma el ultimo usado*/
+	width: 60%;
+}
+header #avatar
+{
+	border: 1px solid red; /* visualizar la caja*/
+	float: right; /* vuela la cajaa la derecha */
+	margin: 1em 1em 0 0;/* margenes de la caja */
+	/* la caja completa contenedora */
+}
+header #avatar figcaption
+{
+	background: #22BCE0;
+	float: right;
+	height: 50px; 
+	padding: 0 2px; /* el padding genera espacios cliqueables*/
+	/* esta caja ubica a la derecha el figcaption */
+}
+header #avatar img
+{
+	float: left;
+	width: 50px; 
+	/* esta caja ubica a la izquierda la imagen */
+}
+header #logo img /* Camino directo a la imagen */
+{
+	width: 80px;
+}
+header #box
+{
+	background: #22BCE0;
+	display: inline-block;
+	border-radius: 0.5em 0.5em 0 0;
+	padding: 0.1em 0.2em;
+	float: right;
+}
+header #box .azul_box
+{
+	height: 12px;
+	vertical-align: super;
+}
+nav
+{
+	background: #878787; /* color back de nav */
+	font-size: 0.9em; /* tamaño de fuentes del nav */
+}
+nav ul
+{
+	list-style: none; /* quitar los puntos de lista */
+	margin: 0; /* pegar al borde*/
+	padding: 0; /* pegar al borde derecho */
+}
+nav ul li
+{
+	display: inline-block; /* subir uno al lado del otro */
+	vertical-align: top; /* subir uno al lado del otro */
+	margin: 0 1.2em 0 0; /* pongo margenes para cada uno de textos del menu nav */
+}
+nav ul li a
+{
+	color: white; /* color de el texto*/
+	display: block; /* Bloqueo esta sección interna para poder usar el padding y expandirla franja del nav */
+	padding: 0.5em 0;
+	text-decoration: none;
+}
+nav #fechita_nav
+{
+	float: left;
+	margin-left: 0;
+}
+nav #fechita_nav a
+{
+	background-color: #22BCE0;
+	padding: 0.45em 0.5em;
+	text-decoration: none;
+}
+nav #publicar_nav /* id de publicar */
+{
+	float: right; /* flotar a la derecha */
+	margin-right: 0; /* pegarlo al borde derecho quitandole el margen */
+}
+nav #publicar_nav a
+{
+	background-color: #DD4F24; /* Color de fondo */
+	padding: 0.45em 1em; /* pading superior inferior y los laterales */
+	text-decoration: none; /* le quitamos el nderline */
+}
+#contenido /* estilado de contenido */
+{
+	/* border: 3px solid blue;  borde para visualizar la seccion */
+	margin: 1em;
+}
+#contenido .item
+{
+	background: white;
+	border-bottom: 3px #22BCE0 solid;
+}
+#contenido .item p /* despegar los textos de la imagen  */
+{
+	color: #7A7A7A;
+	font-size: 0.9em; 
+}
+#contenido .item .datos_item .tag_item /* los datos del item  */
+{
+	background: #22BCE0; /* color azul del texto  */
+	color: white; /* color de fuente  */
+	text-decoration: none; /* quitar la decoración */
+	padding: 0.2em 0.5em; /* tamaño de la caja intena  */
+	border-radius: 0.5em; /* redondear los textos */
+}
+#contenido .item .imagen_item
+{
+	float: left; /* la imagen flota a la izquierda y los siguientes elementos suben  */
+	margin: 0 1em 0 0; /* despegar los textos de la imagen  */
+
+}
+#contenido .item .imagen_item img /* Creo la ruta del camino al objeto que quiero hacer el cambio */
+{
+	width: 96px; /* Ajusto el ancho de las imagenes, el por si solo redimenciona el ancho */
+}
+#contenido .item .titulo_item
+{
+	font-size: 1em;
+	font-style: italic;
+	padding: 0.5em 0.5em 0 0;
+}
+#contenido .item .titulo_item a
+{
+	color: #444;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
